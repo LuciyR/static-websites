@@ -1,0 +1,395 @@
+/* Fonts */
+@font-face {
+  font-family: "Oranienbaum";
+  src: url("./fonts/Oranienbaum.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lighthaus";
+  src: url("./fonts/Lighthaus.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+============================================
+Index Page
+============================================
+*/
+
+#top-bar {
+	background-color: #ffffff;
+	height: 55px;
+	position: fixed;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	font-family: "Lighthaus" sans-serif;
+}
+ 
+#top-bar li {
+	list-style: none; 
+	display: inline-block;
+}
+
+#top-bar li h5 {
+	padding-right: 22px;
+	padding-left: 12px;
+	padding-top: 7px;
+}
+
+.nav-link {
+	text-align: center;
+	color: #7a7a7a;
+}
+
+#logo {
+	height: 50px;
+	vertical-align: middle;
+}
+ 
+.main-link {
+  color: #7a7a7a;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#welcome-msg {
+  margin-top: 200px;
+	color: #ffffff; 
+	font-family: "Lighthaus";
+}
+ 
+.bck {
+  background-image: url('../images/main.jpg');
+	background-size: cover;
+	width: 100%;
+	margin: 0px;
+	min-height: 750px;
+}
+
+.details {
+	color: #ffffff;
+}
+
+.details:hover {
+	color: grey;
+}
+
+.decorator {
+	background-color: #ffffff;
+	height: 35px;
+	text-align: center;
+}
+
+.decorator img {
+	height: 35px;
+}
+
+.decorator p {
+	font-family: "Lighthaus";
+	font-size: 17px;
+	color: #00a4c9;
+}
+
+.decorator span {
+	display: inline-block;
+  vertical-align: top;
+  padding-top: 7px;
+}
+
+.deliver {
+	background-image: url('../images/deliver.jpg');
+	background-size: cover;
+	margin: 0px;
+	min-height: 400px;
+}
+
+.quality {
+	background-image: url('../images/quality.jpg');
+	background-size: cover;
+	margin: 0px;
+	min-height: 400px;
+}
+
+.section-msg {
+	font-family: "Lighthaus";
+	color: #ffffff;
+	margin-top: 70px;
+	padding: 25px;
+}
+
+.third-section {
+  background-image: url('../images/celebrate.jpg');
+	background-size: cover;
+	width: 100%;
+	min-height: 550px;
+}
+
+.third-section-msg {
+	color: black;
+	font-family: "Lighthaus";
+	padding-top: 150px;
+	padding-left: 25px;
+}
+
+.fourth-section {
+	min-height: 400px;
+	text-align: center;
+}
+
+.fourth-section-msg {
+	color: #00a4c9;
+	font-family: "Lighthaus";
+	text-align: center;
+	padding-top: 25px;
+}
+
+.fourth-section-msg h3 {
+	font-weight: lighter;
+}
+
+.items img {
+	display: block;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 35px;
+}
+
+/*
+.fourth-section a {
+	color: #00a4c9 !important;
+	margin-top: 25px;
+	width: 250px;
+	border-color: #00a4c9 !important;
+}
+
+.fourth-section a:hover {
+	color: grey !important;
+	border-color: grey !important;
+}
+*/
+
+.footer {
+	min-height: 200px;
+	background-color: #6cc4ea;
+	color: white;
+	font-family: "Oranienbaum";
+	text-align: left;
+}
+
+.footer-heading {
+	display: inline-block;
+	border-bottom: 5px solid white;
+	margin-left: 35px;
+	font-size: 18px !important;
+	margin-bottom: 1px;
+}
+
+.footer a {
+	color: white !important;
+}
+
+.footer-heading:first-child {
+	padding-top: 25px;
+}
+
+.footer-details {
+	margin-bottom: 3px;
+	margin-left: 35px;
+}
+
+.footer-details:first-child {
+	padding-top: 25px;
+}
+
+.footer-img {
+	padding-top: 25px;
+}
+
+@media (max-width: 550px) {
+	.bck {
+		min-height: 450px;
+	}
+}
+
+@media (max-width: 650px) {
+	#welcome-msg {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+	#boxed-roses {
+		display: none;
+	}
+}
+
+@media (min-width: 550px) {
+	.deliver {
+	  width: 50% !important;
+  }
+  
+  .quality {
+	  width: 50% !important;
+  }
+  
+  .about-img {
+	  width: 50% !important;
+  }
+  
+  .about-txt {
+	  width: 50% !important;
+  }
+}
+
+@media (max-width: 550px) {
+	.third-section {
+		background-image: url('../images/celebrate-sm.jpg');
+    min-height: 400px;
+  }
+  
+  .third-section-msg {
+	  padding-top: 50px;
+	  padding-left: 25px;
+  }
+}
+
+@media (min-width: 551px) {
+	.third-section {
+    min-height: 570px;
+  }
+}
+
+@media (min-width: 900px) {
+	.third-section {
+    min-height: 770px;
+  }
+}
+
+@media (min-width: 1200px) {
+	.third-section {
+    min-height: 770px;
+  }
+}
+
+@media (min-width: 1400px) {
+	.third-section {
+    min-height: 970px;
+  }
+}
+
+/*
+============================================
+About Page
+============================================
+*/
+
+.bck-pages {
+  background-image: url('../images/about.jpg');
+	background-size: cover;
+	width: 100%;
+	margin: 0px;
+	min-height: 450px;
+}
+
+.about-img {
+	background-image: url('../images/about-img.jpg');
+	background-size: cover;
+	margin: 0px;
+	min-height: 500px;
+}
+
+.about-txt {
+	margin: 0px;
+	min-height: 500px;
+}
+
+.about-msg {
+	font-family: "Oranienbaum";
+	margin-top: 70px;
+	padding: 25px;
+}
+
+.third-section-about {
+	background-color: #f6f6f6;
+	min-height: 550px;
+}
+
+.reviews-section {
+	text-align: center;
+	color: black;
+	font-family: "Oranienbaum";
+	padding-top: 150px;
+}
+
+.review {
+	
+}
+
+/*
+============================================
+Contact Page
+============================================
+*/
+
+.contact-img {
+	background-image: url('../images/map.jpg');
+	background-size: cover;
+	margin: 0px;
+	min-height: 500px;
+}
+
+@media (max-width: 550px) {
+	.bck-pages {
+    min-height: 335px;
+  }
+}
+
+@media (min-width: 551px) {
+	.bck-pages {
+		background-image: url('../images/about-md.jpg');
+    min-height: 570px;
+  }
+}
+
+@media (min-width: 1200px) {
+	.bck-pages {
+		background-image: url('../images/about-lg.jpg');
+    min-height: 670px;
+  }
+}
+
+@media (min-width: 1400px) {
+	.bck-pages {
+		background-image: url('../images/about-lg.jpg');
+    min-height: 970px;
+  }
+}
+
+@media (max-width: 850px) {
+	.contact-img {
+		background-image: url('../images/map-sm.jpg');
+  }
+}
+
+/*
+============================================
+Present Page
+============================================
+*/
+
+.third-section-items {
+}
+
+.items-section {
+	text-align: center;
+	color: black;
+	font-family: "Oranienbaum";
+	padding-top: 15px;
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+}
