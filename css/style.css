@@ -149,6 +149,10 @@ Index Page
 	font-weight: lighter;
 }
 
+.fourth-section-msg h5 {
+	color: #f3327f;
+}
+
 .items img {
 	display: block;
   margin: auto;
@@ -325,6 +329,14 @@ About Page
 
 .review {
 	padding: 20px;
+}
+
+.price {
+	padding-left: 35px;
+}
+
+.first-price {
+	padding-left: 22px;
 }
 
 /*
